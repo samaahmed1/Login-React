@@ -1,7 +1,7 @@
 export default function LoginForm() {
   return (
     <>
-      <section className="text-white flex flex-col gap-7">
+      <section className="text-white flex flex-col gap-7 ">
         <div className="info">
           <h2 className="text-2xl">Let’s connect constellations</h2>
           <p className="text-sm">
@@ -9,9 +9,9 @@ export default function LoginForm() {
           </p>
         </div>
         <form className="flex flex-col gap-2">
-          <div className="flex gap-2">
-            <input className="rounded-sm p-0.5 md:p-1.5 outline-none bg-[#FFFFFF0D] border border-[#FFFFFF33]" type="text" autoFocus placeholder="Last Name" />
-            <input className="rounded-sm p-0.5 md:p-1.5 outline-none bg-[#FFFFFF0D] border border-[#FFFFFF33]" type="text" placeholder="First Name" />
+          <div className="flex gap-2 flex-wrap md:flex-nowrap">
+            <input className="w-[100%] md:w-[50%] p-0.5 md:p-1.5 rounded-sm outline-none bg-[#FFFFFF0D] border border-[#FFFFFF33]" type="text" autoFocus placeholder="Last Name" />
+            <input className="w-[100%] md:w-[50%] p-0.5 md:p-1.5 rounded-sm  outline-none bg-[#FFFFFF0D] border border-[#FFFFFF33]" type="text" placeholder="First Name" />
           </div>
           <input className="rounded-sm p-0.5 md:p-1.5 outline-none bg-[#FFFFFF0D] border border-[#FFFFFF33]" type="email" name="email" id="email" placeholder="Email" />
           <input className="rounded-sm p-0.5 md:p-1.5 outline-none bg-[#FFFFFF0D] border border-[#FFFFFF33]" type="text" placeholder="Phone Number" />
